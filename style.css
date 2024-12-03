@@ -1,0 +1,518 @@
+/* Link da fonte */
+@import url(https://fonts.google.com/specimen/Poppins?query=po);
+
+/* Resetando estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video{
+    width: 1500px;
+    height: 700px;
+    margin-left: 0;
+}
+.destaqueTexto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    background-color: #ffffff75;
+    /* Vai posicionar o texto*/
+    
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+#sociais{
+    padding: 1rem;
+    font-size: 30px;
+}
+
+.logoprincipal {
+    margin: 1px 15px;
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
+}
+.fundopri{
+    width: 1500px;
+    height: 700px;
+    margin-left: 0px;
+}
+
+.destaqueFoto{
+    background-image: url(img/ULTIMA.jpeg);
+}
+
+.logo_da_barra{
+    width: 200px;
+    margin-top: -55px;
+    margin-left: 20px;
+}
+
+/* Estilos globais */
+body {
+    font-family:"Poppins", sans-serif;
+    background-color: var(--background-color);
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para cabeçalhos */
+h2 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para formulários */
+form {
+    position: absolute;
+    width: 1000px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(208, 61, 50, 0.714); /* Fundo semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    unicode-bidi: isolate;
+    display: block;
+}
+
+.formis {
+    position: absolute;
+    width: 800px;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(208, 61, 50, 0.714); /* Fundo semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    unicode-bidi: isolate;
+    display: block;
+    
+}
+
+.formus {
+    position: absolute;
+    width: 800px;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(208, 61, 50, 0.714); /* Fundo semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    unicode-bidi: isolate;
+    display: block;
+    
+}
+
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #FE000B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #980907;
+}
+.login{
+    background-color: #FE000B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-left: 250px;
+    margin-top: -10px;
+}
+
+.login:hover {
+    background-color: #980907;
+}
+/* Estilos para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 700px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+/* Estilos para imagens */
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.update-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para mensagens */
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color:#be0c0c;
+    color: #fff;
+}
+
+.error {
+    background-color: #FE000B;
+    color: #fff;
+}
+
+/* Estilos para links */
+a {
+    color: #FE000B;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #181818;
+}
+
+/* Estilos para o menu principal */
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background-color:#980907;
+}
+
+/* Estilos para ações na tabela */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions a {
+    padding: 5px 10px;
+    background-color: #FE000B;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.actions a:hover {
+    background-color:#980907;
+}
+
+/* Estilo para o botão de voltar */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#FE000B;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #980907;
+    color: #fff;
+}
+
+
+
+header {
+    background-color: #be0c0c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    
+
+    /* leve sombreado no header */
+    /* offset-x| offset-y|blur-radius|color */
+    box-shadow: 5px 5px 10px #2e2e2e;
+  }
+  
+  header .limitador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Centraliza na vertical */
+  }
+  
+  .limitador {
+    max-width: 1100px;
+    width: 95vw;
+    margin: auto; /* Centraliza na horizontal */
+  }
+.links {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+.links a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #FE000B;
+    color: #fff;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+
+    font-size: 20px;
+    width: 12rem;
+    height: 5rem;
+}
+
+
+.links a:hover {
+    background-color: #980907;
+}
+
+#sis-cadastro{
+    font-size: 2rem;
+
+}
+
+
+
+/* Estilos para tabelas */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1200px;
+    
+}
+.lista{
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0; 
+    margin-left: 120px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #181818;
+}
+
+th {
+    background-color: #980907;
+    color: #fff;
+}
+
+.titulo{
+    background-color: #980907;
+    color: #fff;
+    text-align: center;
+}
+/* Estilos para imagens */
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.update-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para mensagens */
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+.forne{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    border-radius: 10px;
+    
+   
+}
+
+
+.FundoTela{
+    background: url(img/examining-sample-with-microscope.jpg);
+    background-repeat: no-repeat;
+    background-size: 2300px;
+    background-position: 20% 0%;
+
+
+}
+
+
+
+
+  
+
+/* ______________________________________________________________________ */
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    .video {
+        height: auto;
+        width: 100%;
+    }
+
+    .destaqueTexto {
+        width: 90%;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input,
+    button {
+        font-size: 14px;
+    }
+
+    .links a {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .destaqueTexto {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    input,
+    button {
+        font-size: 12px;
+    }
+
+    .links a {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
