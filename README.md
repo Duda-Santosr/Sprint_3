@@ -14,4 +14,7 @@ Na Sprint 3, focamos na integração e conclusão do projeto. Conectamos o banco
 ## Kanban
 
 
-## 
+## Modelagem de Dados
+
+
+## Banco de Dados
