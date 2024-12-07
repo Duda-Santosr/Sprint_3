@@ -8,7 +8,7 @@ Durante a Sprint 2, revisamos e aprimoramos a documentação e a apresentação 
 
 Na Sprint 3, focamos na integração e conclusão do projeto. Conectamos o banco de dados às páginas solicitadas, desenvolvemos o back-end e garantimos o funcionamento completo do website. Também adicionamos novas páginas, como a de cadastro e a de apresentação da União Química. Apesar de não ter sido solicitada no projeto, incluímos uma página de produtos, que não é funcional. Por fim, todas as alterações realizadas na última etapa foram incorporadas à documentação, aos slides, ao cronograma, ao Kanban e ao protótipo de alta fidelidade. 
 
-## Cronograma
+## Cronograma🗓️
 
 
 ## Kanban
@@ -23,7 +23,7 @@ Na Sprint 3, focamos na integração e conclusão do projeto. Conectamos o banco
 ## Banco de Dados
 
 
-## Protótipo de alta fidelidade 
+## Protótipo de alta fidelidade 🖥️📱
 
 ### Página inicial 
 
@@ -42,7 +42,7 @@ Na Sprint 3, focamos na integração e conclusão do projeto. Conectamos o banco
 ### Página Sobre nós 
 
 
-## Site
+## Site💻
 
 ### Página inicial 
 
