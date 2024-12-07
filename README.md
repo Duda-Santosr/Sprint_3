@@ -14,7 +14,49 @@ Na Sprint 3, focamos na integração e conclusão do projeto. Conectamos o banco
 ## Kanban
 
 
+## Fluxograma
+
+
 ## Modelagem de Dados
 
 
 ## Banco de Dados
+
+
+## Protótipo de alta fidelidade 
+
+### Página inicial 
+
+### Página de Login
+
+### Página index
+
+### Página de Cadastro de Fornecedores 
+
+### Página de Cadastro de Produtos 
+
+### Página de Listagem de Produtos 
+
+### Página de entrar em Contato
+
+### Página Sobre nós 
+
+
+## Site
+
+### Página inicial 
+
+### Página de Login
+
+### Página index
+
+### Página de Cadastro de Fornecedores 
+
+### Página de Cadastro de Produtos 
+
+### Página de Listagem de Produtos 
+
+### Página de entrar em Contato
+
+### Página Sobre nós 
+
