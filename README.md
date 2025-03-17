@@ -1,4 +1,4 @@
-# Sprint_3_UniaoQuimica 👩‍🔬⚗️🧪 Grupo - Yasmin, Maria Eduarda, Livia, Isabela Paiola e Lucas
+# Sprint_3_UniaoQuimica 👩‍🔬⚗️🧪 Grupo - Yasmin, Maria Eduarda, Livia, Isabela Paiola e Lucas.
 
 Este é um projeto estudantil que tem como objetivo desenvolver uma página web destinada à União Química, com foco em otimizar o gerenciamento de fornecedores e produtos para os funcionários. A aplicação permitirá o cadastro, atualização, visualização e exclusão de registros, garantindo a precisão nas informações e maior agilidade nos processos internos.
 
